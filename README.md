@@ -104,20 +104,26 @@ A full stack hotel booking application built to practice authentication, room ma
 
 **Links:** [Live Demo](https://hotel-booking-app-umber.vercel.app/signin) · [GitHub Profile](https://github.com/AdityaRizky12)
 
-### 02. Point of Sale (POS) Application
 
-A learning project focused on product management and sales transaction workflows.
+
+### 02. Meta Omnichannel Integration System
+
+A web application project focused on integrating Facebook, Instagram, and WhatsApp through Meta APIs into a centralized platform for managing customer interactions and communications.
 
 **Features**
 
-- Product management
-- Sales transaction workflow
-- Data management
-- POS user interface
+- Facebook, Instagram, and WhatsApp integration through Meta APIs
+- Centralized customer communication management
+- Cross-platform messaging workflow
+- Webhook integration for incoming events and messages
+- API-based communication and data handling
+- Unified dashboard for monitoring customer interactions
 
-**Tech Stack:** Update this section with the technologies used in the actual project.
+**Tech Stack:** Update with the actual technologies used in the project.
 
-**Source Code:** Replace with the actual POS repository URL.
+**Integrations:** Meta Graph API · Facebook · Instagram · WhatsApp
+
+**Source Code:** Replace with the actual Omnichannel repository URL.
 
 ### 03. MERN Streaming Application
 
