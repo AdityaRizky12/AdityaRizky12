@@ -1,33 +1,23 @@
 ```html
 <div align="center">
 
-<!-- ANIMATED HEADER -->
-<img
-  src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0F172A,50:164E63,100:06B6D4&text=ADITYA%20RIZKY%20RAMADHAN&fontColor=FFFFFF&fontSize=34&fontAlignY=45&desc=Junior%20Full%20Stack%20Developer&descSize=18&descAlignY=65&animation=fadeIn&stroke=22D3EE&strokeWidth=1"
-  width="100%"
-  alt="Aditya Rizky Ramadhan - Junior Full Stack Developer"
-/>
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0F172A,50:164E63,100:06B6D4&text=ADITYA%20RIZKY%20RAMADHAN&fontColor=FFFFFF&fontSize=34&fontAlignY=45&desc=Junior%20Full%20Stack%20Developer&descSize=18&descAlignY=65&animation=fadeIn&stroke=22D3EE&strokeWidth=1" width="100%" alt="Aditya Rizky Ramadhan"/>
 
-<!-- TYPING ANIMATION -->
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+Modern+Web+Applications;React+%7C+Next.js+%7C+TypeScript;Node.js+%7C+REST+API+Integration;Always+Learning+and+Building"
-  alt="Developer introduction"
-/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+Modern+Web+Applications;React+%7C+Next.js+%7C+TypeScript;Node.js+%7C+REST+API+Integration;Always+Learning+and+Building" alt="Developer introduction"/>
 
 <br/>
 
-<!-- PROFILE LINKS -->
 <a href="https://portofolio-adityarr.netlify.app/">
-  <img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/aditya-rizky-ramadhan-a748a32a0/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:adityakiong09@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 <a href="https://github.com/AdityaRizky12">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 </div>
@@ -40,11 +30,11 @@
 name: Aditya Rizky Ramadhan
 location: Indonesia
 role: Junior Full Stack Developer
-primary_focus:
+focus:
   - Frontend Development
   - Full Stack Web Applications
   - REST API Integration
-  - Database-Driven Applications
+  - Database Design
 currently_learning:
   - Laravel
   - Software Testing
@@ -53,38 +43,38 @@ currently_learning:
 
 I'm a web developer focused on building practical and user-friendly web applications.
 
-I work with React, Next.js, TypeScript, and Node.js to develop applications that combine responsive interfaces, backend services, database operations, and API integrations.
+I work with React, Next.js, TypeScript, and Node.js to develop applications with responsive interfaces, backend services, database operations, and API integrations.
 
-Through bootcamp training, self-learning, and personal projects, I've gained hands-on experience building features such as authentication, CRUD operations, product management, and transaction workflows.
+Through bootcamp training, self-learning, and personal projects, I've gained hands-on experience building authentication, CRUD operations, product management, and transaction workflows.
 
-I'm continuously improving my skills and looking for opportunities to contribute to real-world projects, collaborate with a team, and grow as a developer.
+I'm continuously improving my skills and looking for opportunities to contribute to real-world projects and grow as a developer.
 
 ---
 
 ## `$ tech-stack`
 
-### Frontend Development
+### Frontend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS"/>
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="Frontend skills"/>
 </p>
 
-### Backend Development
+### Backend
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,firebase&theme=dark" alt="Node.js, Express.js, Firebase"/>
+<img src="https://skillicons.dev/icons?i=nodejs,express,firebase&theme=dark" alt="Backend skills"/>
 </p>
 
 ### Database & Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,postman&theme=dark" alt="MySQL, Git, GitHub, VS Code, Postman"/>
+<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,postman&theme=dark" alt="Database and tools"/>
 </p>
 
 ### Currently Learning
 
 <p>
-  <img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="PHP and Laravel"/>
+<img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="PHP and Laravel"/>
 </p>
 
 ---
@@ -93,88 +83,57 @@ I'm continuously improving my skills and looking for opportunities to contribute
 
 ### 01. Hotel Booking App
 
-A full stack hotel booking application built to explore authentication, room management, booking workflows, and payment integration.
+A full stack hotel booking application built to practice authentication, room management, booking workflows, and payment integration.
 
-**Tech Stack**
+**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Firebase, Cloudinary, Midtrans Sandbox, Resend.
 
-Next.js · TypeScript · Tailwind CSS · Firebase · Cloudinary · Midtrans · Resend
-
-**Key Features**
+**Features**
 - Email and Google authentication
-- Room management and dashboard
+- Room management dashboard
 - Room search, filtering, and sorting
 - Booking workflow and duplicate booking prevention
-- Invoice PDF generation
+- PDF invoice generation
 - Midtrans sandbox payment integration
 - Email integration
 
-**Links**
-
-- [Live Demo](https://hotel-booking-app-umber.vercel.app/signin)
-- [Source Code](https://github.com/AdityaRizky12)
-
----
+**Links:** [Live Demo](https://hotel-booking-app-umber.vercel.app/signin) · [GitHub Profile](https://github.com/AdityaRizky12)
 
 ### 02. Point of Sale (POS) Application
 
-A point-of-sale application developed as a learning project to practice product management and sales transaction workflows.
+A learning project focused on product management and sales transaction workflows.
 
-**Tech Stack**
-
-React · JavaScript · [Add the actual database and backend technologies used]
-
-**Key Features**
+**Features**
 - Product management
 - Sales transaction workflow
 - Data management
-- User interface for point-of-sale operations
+- POS user interface
 
-**Links**
-
-- [GitHub Repositories](https://github.com/AdityaRizky12)
-
-> Replace the repository link with the direct POS repository and update the technology list to match the actual implementation.
-
----
+**Source Code:** [GitHub](https://github.com/AdityaRizky12)
 
 ### 03. MERN Streaming Application
 
-A movie and streaming-style web application built to practice frontend development, external API integration, and state management.
+A streaming-style web application built to practice movie API integration and frontend state management.
 
-**Tech Stack**
+**Technologies:** React, Zustand, TMDB API, and the backend technologies used in the project.
 
-React · Node.js · Express.js · MongoDB · Zustand · TMDB API
-
-**Key Features**
+**Features**
 - Movie browsing using TMDB API
 - Dynamic movie data
 - Client-side state management
 - Streaming-style user interface
 
-**Links**
-
-- [GitHub Repositories](https://github.com/AdityaRizky12)
-
-> Add the direct repository and live demo if available. Keep only the features implemented in the actual project.
+**Source Code:** [GitHub](https://github.com/AdityaRizky12)
 
 ---
 
-## `$ what_i_do`
+## `$ areas-of-interest`
 
-<p>
-  <img src="https://img.shields.io/badge/Responsive_UI-0F172A?style=flat-square&logo=css3&logoColor=22D3EE" alt="Responsive UI"/>
-  <img src="https://img.shields.io/badge/REST_API_Integration-0F172A?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="REST API Integration"/>
-  <img src="https://img.shields.io/badge/Authentication-0F172A?style=flat-square&logo=firebase&logoColor=22D3EE" alt="Authentication"/>
-  <img src="https://img.shields.io/badge/CRUD_Applications-0F172A?style=flat-square&logo=databricks&logoColor=22D3EE" alt="CRUD Applications"/>
-  <img src="https://img.shields.io/badge/Database_Integration-0F172A?style=flat-square&logo=mysql&logoColor=22D3EE" alt="Database Integration"/>
-</p>
-
-- Building responsive user interfaces with React and Next.js
-- Developing full stack web application features
-- Integrating REST APIs and third-party services
-- Implementing authentication and database operations
-- Working with Git and GitHub for version control
-- Learning better software design and testing practices
+- Responsive web application development
+- REST API integration
+- Authentication and database operations
+- Full stack application development
+- Business workflow automation
+- Software testing and maintainable code
 
 ---
 
@@ -182,25 +141,13 @@ React · Node.js · Express.js · MongoDB · Zustand · TMDB API
 
 <div align="center">
 
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api?username=AdityaRizky12&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9"
-  alt="GitHub Statistics"
-/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=AdityaRizky12&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub Statistics"/>
 
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRizky12&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9"
-  alt="Most Used Languages"
-/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRizky12&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Top Languages"/>
 
 <br/><br/>
 
-<img
-  width="95%"
-  src="https://streak-stats.demolab.com?user=AdityaRizky12&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE"
-  alt="GitHub Contribution Streak"
-/>
+<img width="95%" src="https://streak-stats.demolab.com?user=AdityaRizky12&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" alt="GitHub Streak"/>
 
 </div>
 
@@ -210,11 +157,7 @@ React · Node.js · Express.js · MongoDB · Zustand · TMDB API
 
 <div align="center">
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaRizky12&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true"
-  width="100%"
-  alt="GitHub Contribution Activity"
-/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaRizky12&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
 
 </div>
 
@@ -222,9 +165,9 @@ React · Node.js · Express.js · MongoDB · Zustand · TMDB API
 
 ## `$ currently_working_on`
 
-I'm interested in building practical web applications that solve everyday problems, including inventory management, business workflows, and system integrations.
+I'm interested in building useful web applications for inventory management, business workflows, and system integrations.
 
-I'm also exploring ways to connect web applications with external platforms such as Microsoft Teams, with a focus on useful notifications and streamlined workflows.
+I'm also exploring integrations between web applications and platforms such as Microsoft Teams.
 
 ---
 
@@ -232,27 +175,21 @@ I'm also exploring ways to connect web applications with external platforms such
 
 <div align="center">
 
-I'm open to opportunities in Junior Frontend Development and Junior Full Stack Development.
+I'm open to Junior Frontend Developer and Junior Full Stack Developer opportunities.
 
-Interested in collaborating on web applications, API integrations, and useful software projects?
-
-**Let's connect!**
+Let's connect and build something useful!
 
 <a href="https://portofolio-adityarr.netlify.app/">
-  <img src="https://img.shields.io/badge/Explore_My_Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Explore My Portfolio"/>
+<img src="https://img.shields.io/badge/Visit_My_Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
 
 <a href="https://www.linkedin.com/in/aditya-rizky-ramadhan-a748a32a0/">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
+<img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
 <br/><br/>
 
-<img
-  src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0F172A&height=100&section=footer"
-  width="100%"
-  alt="Profile footer"
-/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0F172A&height=100&section=footer" width="100%" alt="Footer"/>
 
 </div>
 ```
