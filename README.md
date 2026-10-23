@@ -1,23 +1,25 @@
-```html
+
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0F172A,50:164E63,100:06B6D4&text=ADITYA%20RIZKY%20RAMADHAN&fontColor=FFFFFF&fontSize=34&fontAlignY=45&desc=Junior%20Full%20Stack%20Developer&descSize=18&descAlignY=65&animation=fadeIn&stroke=22D3EE&strokeWidth=1" width="100%" alt="Aditya Rizky Ramadhan"/>
+<!-- ANIMATED HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0F172A,50:164E63,100:06B6D4&text=ADITYA%20RIZKY%20RAMADHAN&fontColor=FFFFFF&fontSize=34&fontAlignY=45&desc=Junior%20Full%20Stack%20Developer&descSize=18&descAlignY=65&animation=fadeIn&stroke=22D3EE&strokeWidth=1" width="100%" alt="Aditya Rizky Ramadhan Banner"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=650&lines=Building+Modern+Web+Applications;React+%7C+Next.js+%7C+TypeScript;Node.js+%7C+REST+API+Integration;Always+Learning+and+Building" alt="Developer introduction"/>
+<!-- TYPING ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Building+Modern+Web+Applications;React+%7C+Next.js+%7C+TypeScript;Node.js+%7C+REST+API+Integration;Always+Learning+and+Building" alt="Developer introduction"/>
 
 <br/>
 
 <a href="https://portofolio-adityarr.netlify.app/">
-<img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
 </a>
 <a href="https://www.linkedin.com/in/aditya-rizky-ramadhan-a748a32a0/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:adityakiong09@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
 </a>
 <a href="https://github.com/AdityaRizky12">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 
 </div>
@@ -30,22 +32,25 @@
 name: Aditya Rizky Ramadhan
 location: Indonesia
 role: Junior Full Stack Developer
+
 focus:
   - Frontend Development
   - Full Stack Web Applications
   - REST API Integration
   - Database Design
+  - Authentication and CRUD Systems
+
 currently_learning:
   - Laravel
   - Software Testing
   - Application Architecture
 ```
 
-I'm a web developer focused on building practical and user-friendly web applications.
+I'm a web developer focused on building practical, responsive, and user-friendly web applications.
 
-I work with React, Next.js, TypeScript, and Node.js to develop applications with responsive interfaces, backend services, database operations, and API integrations.
+I work with React, Next.js, TypeScript, and Node.js to develop modern interfaces, integrate APIs, and implement application workflows.
 
-Through bootcamp training, self-learning, and personal projects, I've gained hands-on experience building authentication, CRUD operations, product management, and transaction workflows.
+Through bootcamp training, self-learning, and personal projects, I've gained hands-on experience with authentication, CRUD operations, product management, and transaction workflows.
 
 I'm continuously improving my skills and looking for opportunities to contribute to real-world projects and grow as a developer.
 
@@ -53,28 +58,28 @@ I'm continuously improving my skills and looking for opportunities to contribute
 
 ## `$ tech-stack`
 
-### Frontend
+### Frontend Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="Frontend skills"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS"/>
 </p>
 
-### Backend
+### Backend Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=nodejs,express,firebase&theme=dark" alt="Backend skills"/>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,firebase&theme=dark" alt="Node.js, Express, Firebase"/>
 </p>
 
-### Database & Tools
+### Database & Developer Tools
 
 <p>
-<img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,postman&theme=dark" alt="Database and tools"/>
+  <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,postman&theme=dark" alt="MySQL, Git, GitHub, VS Code, Postman"/>
 </p>
 
 ### Currently Learning
 
 <p>
-<img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="PHP and Laravel"/>
+  <img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="PHP and Laravel"/>
 </p>
 
 ---
@@ -85,9 +90,10 @@ I'm continuously improving my skills and looking for opportunities to contribute
 
 A full stack hotel booking application built to practice authentication, room management, booking workflows, and payment integration.
 
-**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Firebase, Cloudinary, Midtrans Sandbox, Resend.
+**Tech Stack:** Next.js · TypeScript · Tailwind CSS · Firebase · Cloudinary · Midtrans Sandbox · Resend
 
 **Features**
+
 - Email and Google authentication
 - Room management dashboard
 - Room search, filtering, and sorting
@@ -103,26 +109,30 @@ A full stack hotel booking application built to practice authentication, room ma
 A learning project focused on product management and sales transaction workflows.
 
 **Features**
+
 - Product management
 - Sales transaction workflow
 - Data management
 - POS user interface
 
-**Source Code:** [GitHub](https://github.com/AdityaRizky12)
+**Tech Stack:** Update this section with the technologies used in the actual project.
+
+**Source Code:** Replace with the actual POS repository URL.
 
 ### 03. MERN Streaming Application
 
 A streaming-style web application built to practice movie API integration and frontend state management.
 
-**Technologies:** React, Zustand, TMDB API, and the backend technologies used in the project.
+**Tech Stack:** React · Zustand · TMDB API · Project-specific backend technologies
 
 **Features**
-- Movie browsing using TMDB API
+
+- Movie browsing using the TMDB API
 - Dynamic movie data
 - Client-side state management
 - Streaming-style user interface
 
-**Source Code:** [GitHub](https://github.com/AdityaRizky12)
+**Source Code:** Replace with the actual MERN repository URL.
 
 ---
 
@@ -143,11 +153,11 @@ A streaming-style web application built to practice movie API integration and fr
 
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=AdityaRizky12&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub Statistics"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRizky12&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Top Languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRizky12&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Most Used Languages"/>
 
 <br/><br/>
 
-<img width="95%" src="https://streak-stats.demolab.com?user=AdityaRizky12&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" alt="GitHub Streak"/>
+<img width="95%" src="https://streak-stats.demolab.com?user=AdityaRizky12&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" alt="GitHub Contribution Streak"/>
 
 </div>
 
@@ -157,7 +167,7 @@ A streaming-style web application built to practice movie API integration and fr
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaRizky12&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true" width="100%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaRizky12&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true" width="100%" alt="GitHub Contribution Graph"/>
 
 </div>
 
@@ -167,7 +177,20 @@ A streaming-style web application built to practice movie API integration and fr
 
 I'm interested in building useful web applications for inventory management, business workflows, and system integrations.
 
-I'm also exploring integrations between web applications and platforms such as Microsoft Teams.
+I'm also exploring ways to connect web applications with external platforms and services, including Microsoft Teams.
+
+My current focus is improving application architecture, writing cleaner code, and building projects that solve practical problems.
+
+---
+
+## `$ goals`
+
+- Improve full stack development skills
+- Build and document practical portfolio projects
+- Strengthen backend and database fundamentals
+- Learn software testing and application security
+- Collaborate with other developers
+- Contribute to real-world software projects
 
 ---
 
@@ -175,21 +198,21 @@ I'm also exploring integrations between web applications and platforms such as M
 
 <div align="center">
 
-I'm open to Junior Frontend Developer and Junior Full Stack Developer opportunities.
+**Open to Junior Frontend Developer and Junior Full Stack Developer opportunities.**
 
-Let's connect and build something useful!
+I'm always interested in learning, collaborating, and building useful software.
+
+<br/>
 
 <a href="https://portofolio-adityarr.netlify.app/">
-<img src="https://img.shields.io/badge/Visit_My_Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
+  <img src="https://img.shields.io/badge/Visit_My_Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Portfolio"/>
 </a>
-
 <a href="https://www.linkedin.com/in/aditya-rizky-ramadhan-a748a32a0/">
-<img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0F172A&height=100&section=footer" width="100%" alt="Footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0F172A&height=100&section=footer" width="100%" alt="Animated Footer"/>
 
 </div>
-```
