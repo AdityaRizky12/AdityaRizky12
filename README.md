@@ -1,184 +1,158 @@
-
+<!-- 1. BANNER UTAMA (Memanggil banner.svg) -->
 <div align="center">
-
-<!-- ANIMATED HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=220&color=0:0F172A,50:164E63,100:06B6D4&text=ADITYA%20RIZKY%20RAMADHAN&fontColor=FFFFFF&fontSize=34&fontAlignY=45&desc=Junior%20Full%20Stack%20Developer&descSize=18&descAlignY=65&animation=fadeIn&stroke=22D3EE&strokeWidth=1" width="100%" alt="Aditya Rizky Ramadhan Banner"/>
-
-<!-- TYPING ANIMATION -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=22D3EE&center=true&vCenter=true&width=700&lines=Building+Modern+Web+Applications;React+%7C+Next.js+%7C+TypeScript;Node.js+%7C+REST+API+Integration;Always+Learning+and+Building" alt="Developer introduction"/>
-
-<br/>
-
-<a href="https://portofolio-adityarr.netlify.app/">
-  <img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/>
-</a>
-<a href="https://www.linkedin.com/in/aditya-rizky-ramadhan-a748a32a0/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-<a href="mailto:adityakiong09@gmail.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-<a href="https://github.com/AdityaRizky12">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
+  <img src="./banner.svg" width="100%" alt="Banner Aditya Rizky Ramadhan" />
 </div>
 
----
+<br />
 
-## `$ whoami`
+<!-- 2. TOMBOL PORTFOLIO, LINKEDIN, EMAIL -->
+<div align="left">
+  <a href="https://adityarizky.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/▲_PORTFOLIO-ADITYARIZKY.VERCEL.APP-0284c7?style=for-the-badge&labelColor=161b22" alt="Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/adityarizky" target="_blank">
+    <img src="https://img.shields.io/badge/LINKEDIN-ADITYA_RIZKY_RAMADHAN-2563eb?style=for-the-badge&labelColor=161b22" alt="LinkedIn" />
+  </a>
+  <a href="mailto:emailkamu@gmail.com">
+    <img src="https://img.shields.io/badge/M_EMAIL-LET'S_TALK-7c3aed?style=for-the-badge&labelColor=161b22" alt="Email" />
+  </a>
+</div>
 
-```yaml
-name: Aditya Rizky Ramadhan
-location: Indonesia
-role: Junior Full Stack Developer
+<br />
 
-focus:
-  - Frontend Development
-  - Full Stack Web Applications
-  - REST API Integration
-  - Database Design
-  - Authentication and CRUD Systems
+<!-- 3. DESKRIPSI PROFIL & PERJALANAN KARIR -->
+Fullstack Developer based in Jakarta. Starting from an **Automotive Engineering background at SMKN 36 Jakarta**, I transitioned my passion for troubleshooting mechanical systems into building scalable digital architectures through the **Full-Stack Web Developer Bootcamp at Harisenin.com**. Today, I build end-to-end web applications—from **Meta Omnichannel platforms** and **automated inventory systems** to **full-stack booking workflows**.
 
-currently_learning:
-  - Laravel
-  - Software Testing
-  - Application Architecture
-```
+* **Interfaces** · HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Zustand
+* **Behind them** · Node.js, Express.js, Firebase, Prisma ORM, MySQL, MongoDB, PHP & Laravel
+* **Integrations** · Meta Graph API (WhatsApp, IG, FB), Midtrans Payment, Cloudinary, Resend
 
-I'm a web developer focused on building practical, responsive, and user-friendly web applications.
+Have a project in mind? [Let's talk.](mailto:emailkamu@gmail.com)
 
-I work with React, Next.js, TypeScript, and Node.js to develop modern interfaces, integrate APIs, and implement application workflows.
+<br />
 
-Through bootcamp training, self-learning, and personal projects, I've gained hands-on experience with authentication, CRUD operations, product management, and transaction workflows.
+<!-- 4. ANIMASI TECH STACK BERJALAN (Memanggil tech-marquee.svg) -->
+<div align="center">
+  <img src="./tech-marquee.svg" width="100%" alt="Animated Tech Stack" />
+</div>
 
-I'm continuously improving my skills and looking for opportunities to contribute to real-world projects and grow as a developer.
+<br />
 
----
+<!-- 5. RIWAYAT PENDIDIKAN & BOOTCAMP (Bisa Diklik Segitiganya) -->
+## `$ education_&_journey`
 
+<details>
+  <summary><b>Full-Stack Web Developer Bootcamp</b> · Harisenin.com</summary>
+  <br />
+  <blockquote>
+    Intensive full-stack software engineering program focusing on modern frontend frameworks (React, Next.js), backend RESTful APIs (Node.js, Express.js), relational & NoSQL databases, version control (Git/GitHub), and real-world project deployment.
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Automotive Engineering (Teknik Otomotif)</b> · SMKN 36 Jakarta</summary>
+  <br />
+  <blockquote>
+    Developed strong foundations in technical diagnostics, structured problem-solving, and precision engineering—skills that naturally translated into debugging code and designing clean software architecture.
+  </blockquote>
+</details>
+
+<br />
+
+<!-- 6. IKON TECH STACK PER KATEGORI -->
 ## `$ tech-stack`
 
-### Frontend Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind&theme=dark" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS"/>
+**Frontend Development**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind" alt="Frontend Development" />
 </p>
 
-### Backend Development
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,firebase&theme=dark" alt="Node.js, Express, Firebase"/>
+**Backend Development**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,firebase" alt="Backend Development" />
 </p>
 
-### Database & Developer Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql,git,github,vscode,postman&theme=dark" alt="MySQL, Git, GitHub, VS Code, Postman"/>
+**Database & Developer Tools**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,prisma,mongodb,git,github,vscode,postman" alt="Database & Developer Tools" />
 </p>
 
-### Currently Learning
-
-<p>
-  <img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="PHP and Laravel"/>
+**Currently Learning**
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=php,laravel" alt="Currently Learning" />
 </p>
 
----
+<br />
 
-## `$ featured-projects`
+<!-- 7. DAFTAR 4 PROYEK UNGGULAN (SELECTED WORK) -->
+## `01` • Selected work
 
-### 01. Hotel Booking App
-
+### 01. [Hotel Booking App](https://github.com/AdityaRizky12)
 A full stack hotel booking application built to practice authentication, room management, booking workflows, and payment integration.
+* **Tech Stack:** `Next.js` · `TypeScript` · `Tailwind CSS` · `Firebase` · `Cloudinary` · `Midtrans Sandbox` · `Resend`
+* **Features:**
+  * Email and Google authentication
+  * Room management dashboard
+  * Room search, filtering, and sorting
+  * Booking workflow and duplicate booking prevention
+  * PDF invoice generation
+  * Midtrans sandbox payment integration
+  * Email integration
 
-**Tech Stack:** Next.js · TypeScript · Tailwind CSS · Firebase · Cloudinary · Midtrans Sandbox · Resend
-
-**Features**
-
-- Email and Google authentication
-- Room management dashboard
-- Room search, filtering, and sorting
-- Booking workflow and duplicate booking prevention
-- PDF invoice generation
-- Midtrans sandbox payment integration
-- Email integration
-
-**Links:** [Live Demo](https://hotel-booking-app-umber.vercel.app/signin) · [GitHub Profile](https://github.com/AdityaRizky12)
-
-
-
-### 02. Meta Omnichannel Integration System
-
+### 02. [Meta Omnichannel Integration System](https://github.com/AdityaRizky12)
 A web application project focused on integrating Facebook, Instagram, and WhatsApp through Meta APIs into a centralized platform for managing customer interactions and communications.
+* **Integrations:** `Meta Graph API` · `Facebook` · `Instagram` · `WhatsApp` · `Webhooks` · `Node.js`
+* **Features:**
+  * Facebook, Instagram, and WhatsApp integration through Meta APIs
+  * Centralized customer communication management
+  * Cross-platform messaging workflow
+  * Webhook integration for incoming events and messages
+  * API-based communication and data handling
+  * Unified dashboard for monitoring customer interactions
 
-**Features**
-
-- Facebook, Instagram, and WhatsApp integration through Meta APIs
-- Centralized customer communication management
-- Cross-platform messaging workflow
-- Webhook integration for incoming events and messages
-- API-based communication and data handling
-- Unified dashboard for monitoring customer interactions
-
-**Tech Stack:** Update with the actual technologies used in the project.
-
-**Integrations:** Meta Graph API · Facebook · Instagram · WhatsApp
-
-**Source Code:** Replace with the actual Omnichannel repository URL.
-
-### 03. MERN Streaming Application
-
+### 03. [MERN Streaming Application](https://github.com/AdityaRizky12)
 A streaming-style web application built to practice movie API integration and frontend state management.
+* **Tech Stack:** `React` · `Zustand` · `TMDB API` · `Node.js` · `Express.js` · `MongoDB`
+* **Features:**
+  * Movie browsing using the TMDB API
+  * Dynamic movie data
+  * Client-side state management
+  * Streaming-style user interface
 
-**Tech Stack:** React · Zustand · TMDB API · Project-specific backend technologies
+### 04. [Uniform Inventory Management System](https://github.com/AdityaRizky12/stok-seragam)
+Uniform Inventory Management System featuring seamless Microsoft Office integration and automated Excel data reporting.
+* **Tech Stack:** `Next.js` · `TypeScript` · `Prisma ORM` · `Tailwind CSS` · `Excel Integration`
+* **Features:**
+  * Interactive stock management table and transaction modal
+  * Bulk stock data import utility and automated Excel reporting
+  * Authentication and inventory dashboard
 
-**Features**
+<br />
 
-- Movie browsing using the TMDB API
-- Dynamic movie data
-- Client-side state management
-- Streaming-style user interface
-
-**Source Code:** Replace with the actual MERN repository URL.
-
----
-
-## `$ areas-of-interest`
-
-- Responsive web application development
-- REST API integration
-- Authentication and database operations
-- Full stack application development
-- Business workflow automation
-- Software testing and maintainable code
-
----
-
-## `$ github-stats`
+<!-- 8. STATISTIK GITHUB & STREAK -->
+## `02` • GitHub Stats
 
 <div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=AdityaRizky12&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=22D3EE&text_color=C9D1D9" alt="GitHub Statistics"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRizky12&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Most Used Languages"/>
-
-<br/><br/>
-
-<img width="95%" src="https://streak-stats.demolab.com?user=AdityaRizky12&theme=tokyonight&hide_border=true&background=0D1117&ring=22D3EE&fire=22D3EE&currStreakLabel=22D3EE" alt="GitHub Contribution Streak"/>
-
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=AdityaRizky12&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AdityaRizky12&layout=compact&langs_count=6&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
 </div>
-
----
-
-## `$ contribution-graph`
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AdityaRizky12&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true" width="100%" alt="GitHub Contribution Graph"/>
-
+  <img src="https://streak-stats.demolab.com?user=AdityaRizky12&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
 </div>
 
----
+<br />
 
+<!-- 9. ACTIVITY ORBIT (Memanggil orbit.svg persis punya temanmu) -->
+## `03` • Activity
+
+<div align="center">
+  <img src="./orbit.svg" width="100%" alt="A year in orbit" />
+</div>
+
+<br />
+
+<!-- 10. CURRENTLY WORKING ON -->
 ## `$ currently_working_on`
 
 I'm interested in building useful web applications for inventory management, business workflows, and system integrations.
@@ -187,38 +161,31 @@ I'm also exploring ways to connect web applications with external platforms and 
 
 My current focus is improving application architecture, writing cleaner code, and building projects that solve practical problems.
 
----
+<br />
 
+<!-- 11. GOALS -->
 ## `$ goals`
 
-- Improve full stack development skills
-- Build and document practical portfolio projects
-- Strengthen backend and database fundamentals
-- Learn software testing and application security
-- Collaborate with other developers
-- Contribute to real-world software projects
+* Improve full stack development skills
+* Build and document practical portfolio projects
+* Strengthen backend and database fundamentals
+* Learn software testing and application security
+* Collaborate with other developers
+* Contribute to real-world software projects
 
----
+<br />
 
+<!-- 12. CONNECT -->
 ## `$ connect`
 
 <div align="center">
-
-**Open to Junior Frontend Developer and Junior Full Stack Developer opportunities.**
-
-I'm always interested in learning, collaborating, and building useful software.
-
-<br/>
-
-<a href="https://portofolio-adityarr.netlify.app/">
-  <img src="https://img.shields.io/badge/Visit_My_Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Visit Portfolio"/>
-</a>
-<a href="https://www.linkedin.com/in/aditya-rizky-ramadhan-a748a32a0/">
-  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/>
-</a>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:0F172A&height=100&section=footer" width="100%" alt="Animated Footer"/>
-
+  <b>Open to Junior Frontend Developer and Junior Full Stack Developer opportunities.</b>
+  <p>I'm always interested in learning, collaborating, and building useful software.</p>
+  
+  <a href="https://adityarizky.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_VISIT_MY_PORTFOLIO-00b4d8?style=for-the-badge&logoColor=white" alt="Visit Portfolio" />
+  </a>
+  <a href="https://linkedin.com/in/adityarizky" target="_blank">
+    <img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0077b6?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
+  </a>
 </div>
