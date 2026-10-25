@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="50%" stop-color="#101726" />
+      <stop offset="100%" stop-color="#0d1117" />
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+
+    <pattern id="dots" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" opacity="0.5" />
+    </pattern>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .sub { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #6e7681; letter-spacing: 2.5px; font-weight: bold; }
+      .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 38px; font-weight: 900; fill: url(#textGrad); }
+      .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #8b949e; }
+      .legend { font-family: 'Courier New', Courier, monospace; font-size: 10px; fill: #6e7681; letter-spacing: 2px; }
+      .date { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #6e7681; }
+      .pulse { animation: pulseAnim 3s ease-in-out infinite; }
+      .spin { animation: spinAnim 90s linear infinite; transform-origin: 650px 160px; }
+      @keyframes pulseAnim { 0%, 100% { opacity: 0.95; } 50% { opacity: 0.4; } }
+      @keyframes spinAnim { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    </style>
+  </defs>
+
+  <!-- Kotak Background -->
+  <rect width="850" height="320" rx="14" fill="url(#bg)" stroke="#21262d" stroke-width="1.5" />
+  <rect width="850" height="320" rx="14" fill="url(#dots)" />
+
+  <!-- Garis Biru Vertikal Kiri -->
+  <rect x="45" y="78" width="4.5" height="65" rx="2.25" fill="url(#barGrad)" filter="url(#glow)" />
+
+  <!-- Teks Kiri -->
+  <text x="62" y="92" class="sub">ACTIVITY  ·  ONE DOT PER DAY</text>
+  <text x="62" y="136" class="title" filter="url(#glow)">A year in orbit</text>
+
+  <text x="62" y="180" class="desc">The last twelve months, spiralling out</text>
+  <text x="62" y="202" class="desc">from the centre to today. Brighter means busier.</text>
+
+  <!-- Legenda Quiet - Busy -->
+  <circle cx="65" cy="252" r="2" fill="#30363d" />
+  <circle cx="77" cy="252" r="3" fill="#0284c7" />
+  <circle cx="91" cy="252" r="4" fill="#38bdf8" />
+  <circle cx="107" cy="252" r="5" fill="#818cf8" />
+  <circle cx="125" cy="252" r="6" fill="#c084fc" filter="url(#glow)" />
+  <text x="62" y="274" class="legend">QUIET   BUSY</text>
+
+  <!-- Spiral Orbit Kanan -->
+  <g class="spin">
+    <!-- Lingkaran Jalur Orbit -->
+    <circle cx="650" cy="160" r="28" fill="none" stroke="#21262d" stroke-width="1" stroke-dasharray="3 3" />
+    <circle cx="650" cy="160" r="55" fill="none" stroke="#21262d" stroke-width="1" />
+    <circle cx="650" cy="160" r="85" fill="none" stroke="#21262d" stroke-width="1" />
+    <circle cx="650" cy="160" r="115" fill="none" stroke="#21262d" stroke-width="1" />
+
+    <!-- Inti Spiral (Cyan Glow) -->
+    <g fill="#38bdf8" filter="url(#glow)">
+      <circle cx="655" cy="160" r="4" />
+      <circle cx="652" cy="168" r="5" />
+      <circle cx="643" cy="172" r="5.5" />
+      <circle cx="634" cy="168" r="4.5" />
+      <circle cx="630" cy="158" r="4" />
+      <circle cx="635" cy="147" r="3.5" />
+      <circle cx="645" cy="141" r="3" />
+      <circle cx="658" cy="143" r="4.5" />
+      <circle cx="668" cy="152" r="5" />
+      <circle cx="672" cy="165" r="5.5" />
+      <circle cx="667" cy="178" r="6" />
+      <circle cx="655" cy="186" r="5" />
+      <circle cx="640" cy="187" r="4" />
+    </g>
+
+    <!-- Lapisan Tengah (Biru ke Indigo) -->
+    <g fill="#60a5fa" filter="url(#glow)" class="pulse">
+      <circle cx="615" cy="178" r="3.5" />
+      <circle cx="603" cy="162" r="4.5" />
+      <circle cx="600" cy="142" r="5" />
+      <circle cx="610" cy="122" r="4" />
+      <circle cx="628" cy="110" r="3" />
+      <circle cx="650" cy="105" r="5.5" />
+      <circle cx="675" cy="112" r="6" />
+      <circle cx="695" cy="128" r="5" />
+      <circle cx="705" cy="152" r="4.5" />
+      <circle cx="700" cy="180" r="3.5" />
+      <circle cx="685" cy="202" r="5" />
+      <circle cx="660" cy="214" r="4.5" />
+      <circle cx="630" cy="212" r="3.5" />
+    </g>
+
+    <!-- Lapisan Luar (Ungu / Busy Days) -->
+    <g fill="#c084fc" filter="url(#glow)">
+      <circle cx="585" cy="110" r="4" />
+      <circle cx="605" cy="90" r="5.5" />
+      <circle cx="630" cy="78" r="6" />
+      <circle cx="645" cy="75" r="4.5" />
+      <circle cx="662" cy="76" r="5" />
+      <circle cx="678" cy="80" r="6.5" />
+      <circle cx="694" cy="88" r="5.5" />
+      <circle cx="708" cy="98" r="5" />
+      <circle cx="720" cy="112" r="6" />
+      <circle cx="729" cy="128" r="5" />
+      <circle cx="734" cy="145" r="4.5" />
+      <circle cx="735" cy="162" r="5.5" />
+      <circle cx="732" cy="180" r="4" />
+      <circle cx="725" cy="196" r="5" />
+      <circle cx="712" cy="215" r="3.5" />
+    </g>
+
+    <!-- Lapisan Terluar & Indikator Hari Ini -->
+    <g fill="#a855f7" filter="url(#glow)">
+      <circle cx="615" cy="52" r="4" />
+      <circle cx="635" cy="47" r="5" />
+      <circle cx="655" cy="45" r="6" />
+      <circle cx="675" cy="48" r="5.5" />
+      <circle cx="695" cy="54" r="5" />
+      <circle cx="712" cy="64" r="6.5" />
+      <circle cx="728" cy="76" r="5.5" />
+      <circle cx="742" cy="92" r="5" />
+      <circle cx="752" cy="110" r="4.5" />
+      <circle cx="760" cy="130" r="4" />
+      <circle cx="764" cy="150" r="5" />
+      <circle cx="763" cy="172" r="3.5" />
+      <circle cx="685" cy="268" r="4.5" />
+      <circle cx="640" cy="272" r="3.5" />
+      <circle cx="570" cy="235" r="4" />
+      <circle cx="545" cy="185" r="3.5" />
+    </g>
+
+    <!-- Cincin Penanda "Today" -->
+    <circle cx="755" cy="195" r="7.5" fill="#0d1117" stroke="#c084fc" stroke-width="2" filter="url(#glow)" />
+  </g>
+
+  <text x="720" y="295" class="date">updated 2026-10-25</text>
+</svg>
