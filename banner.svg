@@ -21,20 +21,10 @@
       <circle cx="2" cy="2" r="1" fill="#30363d" opacity="0.5" />
     </pattern>
 
-    <!-- Efek Klip Animasi Mengetik Natif -->
-    <clipPath id="typingClip">
-      <rect x="65" y="150" width="0" height="35">
-        <animate attributeName="width" values="0;280;280;0;0" keyTimes="0;0.5;0.7;0.9;1" dur="4s" repeatCount="indefinite" />
-      </rect>
-    </clipPath>
-
     <style>
       .sub { font-family: 'Courier New', Courier, monospace; font-size: 12px; fill: #6e7681; letter-spacing: 3px; font-weight: bold; }
       .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 42px; font-weight: 900; fill: url(#textGrad); }
-      .role { font-family: 'Courier New', Courier, monospace; font-size: 20px; fill: #e6edf3; font-weight: bold; }
       .quote { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; fill: #8b949e; }
-      .blink { animation: blinkAnim 1s step-end infinite; }
-      @keyframes blinkAnim { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
     </style>
   </defs>
 
@@ -46,20 +36,13 @@
   <text x="65" y="68" class="sub">JAKARTA  .  FULLSTACK</text>
   <text x="65" y="118" class="title">Aditya Rizky Ramadhan</text>
 
-  <!-- Panah Prompt -->
-  <path d="M 46 162 L 54 168 L 46 174" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
-  
-  <!-- Teks Full Stack Developer dengan Animasi Mengetik -->
-  <text x="65" y="175" class="role" clip-path="url(#typingClip)">Full Stack Developer</text>
-  
-  <!-- Kotak Kursor Berkedip yang Bergerak Mengikuti Ketikan -->
-  <rect x="65" y="157" width="10" height="20" fill="#38bdf8" class="blink">
-    <animate attributeName="x" values="65;345;345;65;65" keyTimes="0;0.5;0.7;0.9;1" dur="4s" repeatCount="indefinite" />
-  </rect>
+  <!-- Memanggil Animasi Mengetik Aktif -->
+  <svg x="43" y="150" width="400" height="35">
+    
+  </svg>
 
   <text x="45" y="218" class="quote">Code with intention. Design with compassion.</text>
 
-  <!-- Ikon Orbit Koding Kanan -->
   <g transform="translate(730, 130)">
     <ellipse cx="0" cy="0" rx="75" ry="28" fill="none" stroke="#30363d" stroke-width="1.2" transform="rotate(-30)" />
     <ellipse cx="0" cy="0" rx="75" ry="28" fill="none" stroke="#30363d" stroke-width="1.2" transform="rotate(30)" />
