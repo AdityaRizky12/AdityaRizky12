@@ -1,6 +1,6 @@
 <!-- 1. BANNER UTAMA (Memanggil banner.svg) -->
 <div align="center">
-  <img src="./banner.svg" width="100%" alt="Banner Aditya Rizky Ramadhan" />
+ <img src="./banner.svg?v=2" width="100%" alt="Banner Aditya Rizky Ramadhan" />
 </div>
 
 <br />
