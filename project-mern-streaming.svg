@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="420" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/><stop offset="50%" stop-color="#101726"/><stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#30363d" opacity="0.45"/>
+    </pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/>
+    </filter>
+    <style>
+      .lab{font-family:'Courier New',Courier,monospace;font-size:10px;font-weight:bold;letter-spacing:3px;fill:#c084fc}
+      .ttl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:17px;font-weight:800;fill:#f1f5f9}
+      .desc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:12px;fill:#8b949e}
+      .chip{font-family:'Courier New',Courier,monospace;font-size:11px;fill:#cbd5e1}
+      .sec{font-family:'Courier New',Courier,monospace;font-size:9px;letter-spacing:3px;fill:#6e7681;font-weight:bold}
+      .hl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;font-size:11.5px;fill:#94a3b8}
+      .go{font-family:'Courier New',Courier,monospace;font-size:10.5px;font-weight:bold;letter-spacing:2px;fill:#c084fc}
+      .big{font-family:'Courier New',Courier,monospace;font-size:78px;font-weight:bold;fill:#c084fc;opacity:.07}
+      .arrow{animation:nudge 1.8s ease-in-out infinite}
+      @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="418" height="298" rx="14" fill="url(#bg)" stroke="#21262d" stroke-width="1.5"/>
+  <rect x="1" y="1" width="418" height="298" rx="14" fill="url(#dots)"/>
+  <text x="400" y="100" text-anchor="end" class="big">03</text>
+  <rect x="1" y="1" width="418" height="298" rx="14" fill="none" stroke="#c084fc" stroke-width="2" stroke-linecap="round"
+        pathLength="1000" stroke-dasharray="110 890" filter="url(#glow)" opacity="0.9">
+    <animate attributeName="stroke-dashoffset" values="0;-1000" dur="7s" begin="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="28" y="34" class="lab">03  ·  MERN STACK</text>
+  <text x="28" y="64" class="ttl">MERN Streaming Application</text>
+  <text x="28" y="90" class="desc">Streaming-style web app built to practice movie API</text><text x="28" y="108" class="desc">integration and frontend state management.</text>
+  <rect x="28.0" y="122" width="51.0" height="22" rx="11" fill="#111827" stroke="#273449"/><text x="53.5" y="137" text-anchor="middle" class="chip">React</text><rect x="87.0" y="122" width="64.2" height="22" rx="11" fill="#111827" stroke="#273449"/><text x="119.1" y="137" text-anchor="middle" class="chip">Zustand</text><rect x="159.2" y="122" width="70.8" height="22" rx="11" fill="#111827" stroke="#273449"/><text x="194.6" y="137" text-anchor="middle" class="chip">TMDB API</text><rect x="238.0" y="122" width="64.2" height="22" rx="11" fill="#111827" stroke="#273449"/><text x="270.1" y="137" text-anchor="middle" class="chip">Node.js</text><rect x="28.0" y="152" width="84.0" height="22" rx="11" fill="#111827" stroke="#273449"/><text x="70.0" y="167" text-anchor="middle" class="chip">Express.js</text><rect x="120.0" y="152" width="64.2" height="22" rx="11" fill="#111827" stroke="#273449"/><text x="152.1" y="167" text-anchor="middle" class="chip">MongoDB</text>
+  <text x="28" y="204" class="sec">HIGHLIGHTS</text>
+  <text x="28" y="226" class="hl"><tspan fill="#c084fc">›</tspan>  Movie browsing powered by the TMDB API</text><text x="28" y="244" class="hl"><tspan fill="#c084fc">›</tspan>  Dynamic movie data</text><text x="28" y="262" class="hl"><tspan fill="#c084fc">›</tspan>  Client-side state management with Zustand</text>
+  <text x="28" y="286" class="go">VIEW ON GITHUB</text>
+  <text x="156" y="286" class="go arrow">→</text>
+</svg>
