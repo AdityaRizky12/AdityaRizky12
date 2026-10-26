@@ -147,7 +147,7 @@ Uniform Inventory Management System featuring seamless Microsoft Office integrat
 ## `03` • Activity
 
 <div align="center">
-  <img src="./orbit.svg" width="100%" alt="A year in orbit" />
+  <img src="./orbit.svg?v=2" width="100%" alt="A year in orbit" />
 </div>
 
 <br />
