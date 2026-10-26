@@ -33,9 +33,8 @@ Have a project in mind? [Let's talk.](mailto:emailkamu@gmail.com)
 
 <!-- 4. ANIMASI TECH STACK BERJALAN (Memanggil tech-marquee.svg) -->
 <div align="center">
-  <img src="./tech-marquee.svg" width="100%" alt="Animated Tech Stack" />
+  <img src="./tech-marquee.svg?v=2" width="100%" alt="Animated Tech Stack" />
 </div>
-
 <br />
 
 <!-- 5. RIWAYAT PENDIDIKAN & BOOTCAMP (Bisa Diklik Segitiganya) -->
